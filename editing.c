@@ -8,6 +8,8 @@
 void blur(int height, int width, int channels, RGB pixels[height][width], unsigned char *edited_output)
 {
 
+    int delta_val = 12;
+
     for (int i = 0; i < height; i++)
     {
         for (int j = 0; j < width; j++)
@@ -17,9 +19,9 @@ void blur(int height, int width, int channels, RGB pixels[height][width], unsign
             int sumB = 0;
             int count = 0;
 
-            for (int delta_i = -3; delta_i <= 3; delta_i++)
+            for (int delta_i = -delta_val; delta_i <= delta_val; delta_i++)
             {
-                for (int delta_j = -3; delta_j <= 3; delta_j++)
+                for (int delta_j = -delta_val; delta_j <= delta_val; delta_j++)
                 {
                     int new_i = i + delta_i;
                     int new_j = j + delta_j;
