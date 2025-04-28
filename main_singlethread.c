@@ -4,7 +4,7 @@
 #include "/home/can_ozkan/can_codes/image_processing_project/stb/stb_image_write.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "editing.h"
+#include "editing_singlethread.h"
 #include <time.h>
 
 

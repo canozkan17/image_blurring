@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <math.h>
-#include "editing.h"
+#include "editing_singlethread.h"
 
 
 // Blurring the Image

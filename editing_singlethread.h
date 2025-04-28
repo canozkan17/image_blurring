@@ -1,5 +1,5 @@
-#ifndef EDITING_H
-#define EDITING_H
+#ifndef EDITING_SINGLETHREAD_H
+#define EDITING_SINGLETHREAD_H
 
 typedef struct
 {
