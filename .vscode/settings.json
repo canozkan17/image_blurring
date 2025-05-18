@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "math.h": "c",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "stdio.h": "c",
+        "time.h": "c"
     }
 }
