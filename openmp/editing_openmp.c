@@ -10,7 +10,6 @@ void blur(int height, int width, int channels, RGB pixels[height][width], unsign
 {
     
     omp_set_num_threads(2);
-    #pragma omp parallel for schedule(dynamic)
     for (int i = 0; i < height; i++)
     {
         for (int j = starting_column; j < ending_column; j++)
